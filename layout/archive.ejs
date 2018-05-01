@@ -1,4 +1,5 @@
 <div id="archive">
+  <h1><%= __('archive.title') %></h1>
   <ul class="post-list">
     <% var year = 0 %>
     <% var change = false %>
@@ -10,8 +11,16 @@
         <h2><%= year %></h2>
       <% } %>
       <li class="post-item">
-        <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
-        <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
+        <article class="post-item-box">
+          <% if (post.cover) { %>
+            <section class="post-item--cover" style="background-image: url(<%- post.cover %>);"></section>
+          <% } %>
+          <section class="post-item--content">
+            <%- partial('_partial/post/title', { post: post, index: true, class_name: 'post-title' }) %>
+            <%- partial('_partial/post/tag', { page: post, class_name: 'post-tags' }) %>
+            <%- partial('_partial/post/description', { post: post, class_name: 'post-description' }) %>
+          </section>
+        </article>
       </li>
     <% }); %>
   </ul>

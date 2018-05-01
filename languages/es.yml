@@ -1,7 +1,8 @@
 nav:
   home: Inicio
   about: Acerca de
-  articles: Articulos
+  contact: Contacto
+  articles: Posts
   projects: Proyectos
   search: Buscar
 
@@ -9,7 +10,7 @@ footer:
   copyright: Copyright
 
 index:
-  find_me_on: Encuentrame en
+  find_me_on: Encuéntranos en en
   enum_comma: ','
   enum_and: y
   articles: Articulos

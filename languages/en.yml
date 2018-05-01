@@ -1,7 +1,8 @@
 nav:
-  home: Home
+  home: Main
   about: About
-  articles: Writing
+  contact: Contact
+  articles: Blog
   projects: Projects
   search: Search
 
@@ -9,11 +10,14 @@ footer:
   copyright: Copyright
 
 index:
-  find_me_on: Find me on
+  find_me_on: Find us on
   enum_comma: ','
   enum_and: and
-  articles: Writing
+  articles: Blog
   projects: Projects
+
+archive:
+  title: elearntics blog
 
 post:
   desktop:

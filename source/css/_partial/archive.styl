@@ -1,4 +1,7 @@
 #archive
+  h1
+    font-size: 3em
+
   .post-list
     padding: 0
 
@@ -6,6 +9,29 @@
       margin-bottom: 1rem
       margin-left: 0
       list-style-type: none
+      line-height: 2rem
+
+      .post-item-box
+        display: flex
+
+      .post-title
+        font-size: 2rem
+
+      .post-description
+        margin: 0
+
+      .post-tags
+        color: $color-accent-4
+
+      .post-item--cover
+        width: 30%
+        height: auto
+        min-height: 10rem
+        background-size: cover
+        border-radius: 5px
+
+      .post-item--content
+        padding-left: 2rem
 
       .meta
         display: block
@@ -17,9 +43,8 @@
   @media (min-width: 480px)
     .post-list
       .post-item
-        display: flex
+        display: block
         margin-bottom: 5px
-        margin-left: 1rem
 
         .meta
           text-align: left
