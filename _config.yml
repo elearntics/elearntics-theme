@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/elearntics
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -15,10 +15,15 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  # contact: /contact/
   articles: /archives/
-  # projects: projects_url
+  contact: mailto:hello@elearntics.com
 
+footer:
+  home: /
+  articles: /archives/
+  terms_of_service: /terms-of-service/
+  privacy_policy: /privacy-policy/
+  contact: mailto:hello@elearntics.com
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
@@ -68,7 +73,7 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
+    url: /images/favicon
     gravatar: false
   android:
     url: /images/favicon-192x192.png
@@ -84,7 +89,7 @@ favicon:
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: dark
+colorscheme: white
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -112,7 +117,7 @@ open_graph:
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
   enabled: false
-  shortname: cactus-1
+  shortname:
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
@@ -127,4 +132,4 @@ baidu_analytics:
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-  email: name@email.com
+  email:
